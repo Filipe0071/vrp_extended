@@ -1,9 +1,6 @@
 vRPEXT = {}
 
-vRPEXT.Players = {}
 vRPEXT.ServerCallbacks = {}
-vRPEXT.TimeoutCount = -1
-vRPEXT.CancelledTimeouts = {}
 
 AddEventHandler("vrpext:getSharedObject", function(cb)
 	cb(vRPEXT)
