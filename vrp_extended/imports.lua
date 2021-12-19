@@ -1,0 +1,1 @@
+vRPEXT = exports["vrp_extended"]:getSharedObject()
