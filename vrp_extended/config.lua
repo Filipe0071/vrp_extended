@@ -1,3 +1,0 @@
-Config = {}
-
-Config.EnableDebug = false
