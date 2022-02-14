@@ -1,9 +1,3 @@
-vRPEXT.Trace = function(msg)
-	if Config.EnableDebug then
-		print(("[^2TRACE^7] %s^7"):format(msg))
-	end
-end
-
 vRPEXT.SetTimeout = function(msec, cb)
 	local id = vRPEXT.TimeoutCount + 1
 	SetTimeout(msec, function()
